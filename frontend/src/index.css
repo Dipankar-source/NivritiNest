@@ -1,0 +1,11 @@
+
+@import "tailwindcss";
+html {
+  scroll-behavior: smooth;
+  transition: background-color 0.3s, color 0.3s;
+  scrollbar-width: none; /* For Firefox */
+}
+
+html::-webkit-scrollbar {
+  display: none; /* For Chrome, Safari, and Edge */
+}
